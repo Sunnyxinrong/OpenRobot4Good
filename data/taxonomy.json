@@ -73,6 +73,8 @@
   },
   "height_coding": {
     "units": "cm",
+    "terminology_source": "https://cccf.hrbeu.edu.cn/cn/article/pdf/preview/10.11991/cccf.202508010.pdf",
+    "terminology_scope": "CCF technical overview, terminology for full-size, half-size and partial-body designs. This catalog operationalizes the approximate ranges with inclusive endpoints and an unassigned gap.",
     "half_size_inclusive": [
       110,
       150
