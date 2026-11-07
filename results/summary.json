@@ -1,0 +1,17 @@
+{
+  "checked": "2026-11-07",
+  "configurations": 22,
+  "release_records": 13,
+  "named_families": 12,
+  "workbook_releases": 11,
+  "supplementary_releases": 2,
+  "access_by_configuration": {
+    "complete_file_checked": 7,
+    "documentation_only": 14,
+    "header_only": 1
+  },
+  "receipts_by_edition": {
+    "configuration_extension": 5,
+    "original_file_pilot": 3
+  }
+}

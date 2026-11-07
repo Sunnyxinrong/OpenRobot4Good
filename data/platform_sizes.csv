@@ -1,0 +1,3 @@
+platform,reference_height_cm,source_id,size_basis
+Fourier GR-1,165,gr1-height,physical_reference_height_band
+Unitree G1,132,g1-height,physical_reference_height_band

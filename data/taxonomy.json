@@ -1,0 +1,89 @@
+{
+  "version": "2026-11-07",
+  "unit": "One selected release subset and acquisition configuration. A release may appear on multiple rows.",
+  "dimensions": {
+    "body": {
+      "arm_system": "机械臂系统",
+      "mobile_manipulator": "移动操作机器人",
+      "humanoid": "人形机器人",
+      "legged_platform": "足式平台",
+      "hand_system": "独立手系统",
+      "surgical_system": "手术机器人",
+      "compliant_platform": "柔性平台",
+      "handheld_interface": "手持采集设备"
+    },
+    "locomotion": {
+      "wheeled": "轮式",
+      "quadrupedal": "四足",
+      "bipedal_reference": "双足参考本体",
+      "fixed_in_task": "任务中固定",
+      "not_applicable": "不适用",
+      "undocumented": "未查明"
+    },
+    "humanoid_size": {
+      "half_size": "半尺寸人形",
+      "full_size": "全尺寸人形",
+      "other_or_unassigned": "范围外或尺寸未定",
+      "not_applicable": "不适用"
+    },
+    "effector": {
+      "dexterous_hand": "灵巧手",
+      "articulated_hand": "关节手（灵巧性未独立判定）",
+      "soft_hand": "软体手",
+      "parallel_gripper": "平行夹爪",
+      "two_finger_gripper": "双指夹爪",
+      "gripper": "夹爪（结构未细分）",
+      "surgical_instrument": "手术器械",
+      "undocumented": "未查明",
+      "not_applicable": "不适用"
+    },
+    "effector_role": {
+      "robot": "机器人执行端",
+      "capture_tool": "采集工具",
+      "not_applicable": "不适用"
+    },
+    "acquisition": {
+      "human_teleoperation": "人工遥操作",
+      "human_demonstration": "人工示范（控制方式未细分）",
+      "handheld_demonstration": "手持接口示范",
+      "kinesthetic_playback": "物理示教后的回放",
+      "scripted_policy": "脚本策略",
+      "expert_policy": "专家策略",
+      "sampled_commands": "采样执行器指令",
+      "demonstration_synthesis": "由种子示范生成轨迹",
+      "undocumented": "未查明"
+    },
+    "terminal": {
+      "vr_controller": "VR 手柄",
+      "leader_arm": "主从示教臂",
+      "spacemouse": "六自由度空间鼠标",
+      "handheld_gripper": "手持示教夹爪（UMI 类）",
+      "surgical_master_console": "手术主控台",
+      "wearable_capture": "穿戴式动捕或数据手套",
+      "direct_guidance": "直接物理示教",
+      "keyboard": "键盘",
+      "no_live_operator": "本次生成或回放无需实时操作者",
+      "undocumented": "实际采集终端未查明"
+    },
+    "access": {
+      "complete_file_checked": "完整文件核验",
+      "header_only": "仅核验文件头",
+      "documentation_only": "仅查阅发布文档"
+    }
+  },
+  "height_coding": {
+    "units": "cm",
+    "half_size_inclusive": [
+      110,
+      150
+    ],
+    "full_size_inclusive": [
+      160,
+      180
+    ],
+    "basis": "Working catalog convention for physical reference platforms. A sourced publisher label may be reported separately. Heights outside these intervals remain unassigned. Size does not describe which joints were active.",
+    "scope": "Manufacturer/team reference dimensions, not simulation-mesh measurements."
+  },
+  "counting": "Count configurations within each category and distinct release IDs separately. Categories on different axes overlap. Release families group related releases for navigation and are not a measure of content uniqueness.",
+  "missing": "undocumented means unresolved within cited sources; no_live_operator describes the immediate sampled or replayed trajectory. Sensors describe observations, not control terminals."
+}
