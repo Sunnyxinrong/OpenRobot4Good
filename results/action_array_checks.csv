@@ -1,0 +1,8 @@
+configuration_id,file_sha256,decoded_rows,declared_width,minimum_width,maximum_width,null_vectors,width_mismatches,null_elements,nonfinite_elements
+fastumi.dual,4cf5294680da068e470cab67377f3b61f7fb350e2b167fd847079345746ea8e3,412,14,14,14,0,0,0,0
+molmoact2.yam,1ea8401dfa2e6b5eb09addd120ab24b0f94f7b443af0889c1a60553acb2bfe02,1732,14,14,14,0,0,0,0
+grootsim.threading,53597fe74268fdc8252959fc3aa51cc31ba8ea0531afd492a26e05b225156bd2,183,14,14,14,0,0,0,0
+lekiwi.cubes,cd311b096a174dbb97abe056b260efe6afc36e6375a016f256f18ec3582ebbf1,1266,9,9,9,0,0,0,0
+grootsim.panda-hand,32c7b25f8080cdd37f87a48b6db3ae3f31e9247c60ed120d6cf95f833df0970b,493,24,24,24,0,0,0,0
+grootsim.gr1,d6044729e89eb8b913c0c2c3408b90030dce0c2c3c0960ae79d18a00bb471d0b,316,44,44,44,0,0,0,0
+grootsim.g1,dbbcb8ac2831fb62f16425b3c7dfe7b57169a6a24960a8a743bbef903bd6fd32,683,43,43,43,0,0,0,0

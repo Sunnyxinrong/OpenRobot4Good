@@ -4,6 +4,8 @@
 
 [可筛选目录 CSV](results/catalog.csv) · [类别计数](results/coverage.csv) · [数据许可和版本](data/releases.csv) · [逐项来源和定位](data/sources.csv)
 
+2026 年 11 月 8 日复核了 7 个完整 Parquet 文件和 1 个 HDF5 文件头的哈希。7 个完整文件来自 4 个发布，共 5,085 行。用 PyArrow 解码每一行的动作向量后，各文件的实际宽度都与各自发布者声明一致，未发现空向量、空元素或非有限数值。检查限于这些文件的动作列。其余 14 个配置的依据是发布文档。[逐文件动作检查](results/action_array_checks.csv)
+
 | 检索项 | 配置示例 | 可以复核的内容 |
 |---|---|---|
 | 轮式 | LeKiwi / sort cubes | 移动底盘与机械臂共存，动作包含夹爪位置、底盘平移速度和转向角速度 |
@@ -42,6 +44,13 @@ python scripts/verify_files.py
 python scripts/verify_files.py --configuration grootsim.threading
 ~~~
 
+逐行检查动作列使用 PyArrow（本次为 19.0.0），结果只包含聚合计数和文件哈希。
+
+~~~sh
+python -m pip install pyarrow==19.0.0
+python scripts/check_action_arrays.py
+~~~
+
 | 文件 | 内容 |
 |---|---|
 | [分类词表](data/taxonomy.json) | 中英文字段、尺寸区间与缺失值定义 |
@@ -51,4 +60,4 @@ python scripts/verify_files.py --configuration grootsim.threading
 | [轮式补充案例的筛选记录](data/wheeled_discovery.csv) | 检查过的候选及选择理由 |
 | [Hub 数据卡模板](hub/README.md) | Dataset Viewer 配置和上游许可说明 |
 
-本仓库沿用项目的 [MIT 许可](LICENSE)。各项 data_license 表示对应原始数据的条款。RoboSet 真实子集的许可覆盖范围仍待核实，状态保存在 license_scope_status 字段中。
+本仓库沿用项目的 [MIT 许可](LICENSE)。data_license 只列能够溯源到对应数据的条款。RoboSet 真实子集的 data_license 留空，MIT 仅记录在 candidate_license；license_scope_status 保留待核实状态。单独发布的 RoboSet Sim 有自己的许可依据。

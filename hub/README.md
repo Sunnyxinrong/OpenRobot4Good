@@ -43,4 +43,6 @@ Seven configurations each have one fully retrieved Parquet file. One quadruped c
 
 ## Provenance and access
 
+On November 8, 2026, the seven complete files from four releases yielded 5,085 decoded action rows. The observed widths matched the published widths in every row. There were no null vectors, null elements or non-finite action values in these samples. The real RoboSet release has a blank `data_license` field and MIT is retained in `candidate_license` pending scope resolution.
+
 The catalog follows the MIT license already attached to the OpenRobot4Good project. The data tables contain descriptive metadata and source links. Researchers obtain robot trajectories directly from their original publishers under the terms in each release record. The upstream data_license column describes those original artifacts. The snapshot date is November 7, 2026. Source and verification scripts are available in the project repository. [OpenRobot4Good on GitHub](https://github.com/Sunnyxinrong/OpenRobot4Good)
