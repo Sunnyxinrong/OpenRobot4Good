@@ -1,0 +1,92 @@
+[
+  {
+    "dataset_id": "fastumi",
+    "repository": "IPEC-COMMUNITY/FastUMI_100k_lerobot",
+    "revision": "4cf7cca8fdc15d6f71ee0055553ce8a5e78aa9a0",
+    "file_path": "dual_arm/Add_Rice_to_Rice_Cooker/data/chunk-000/episode_000000.parquet",
+    "file_url": "https://huggingface.co/datasets/IPEC-COMMUNITY/FastUMI_100k_lerobot/resolve/4cf7cca8fdc15d6f71ee0055553ce8a5e78aa9a0/dual_arm/Add_Rice_to_Rice_Cooker/data/chunk-000/episode_000000.parquet",
+    "checked_utc": "2026-11-06T13:37:30.724647+00:00",
+    "authentication": false,
+    "data": {
+      "status": 200,
+      "bytes": 69680,
+      "sha256": "4cf5294680da068e470cab67377f3b61f7fb350e2b167fd847079345746ea8e3",
+      "url": "https://huggingface.co/datasets/IPEC-COMMUNITY/FastUMI_100k_lerobot/resolve/4cf7cca8fdc15d6f71ee0055553ce8a5e78aa9a0/dual_arm/Add_Rice_to_Rice_Cooker/data/chunk-000/episode_000000.parquet"
+    },
+    "parquet_magic": true,
+    "info": {
+      "status": 200,
+      "bytes": 3855,
+      "sha256": "b7e343b8a40a94fd28edf2534e8108b50c5a636625941c094f901a19f8525c44",
+      "url": "https://huggingface.co/datasets/IPEC-COMMUNITY/FastUMI_100k_lerobot/resolve/4cf7cca8fdc15d6f71ee0055553ce8a5e78aa9a0/dual_arm/Add_Rice_to_Rice_Cooker/meta/info.json"
+    },
+    "readme": {
+      "status": 200,
+      "bytes": 4353,
+      "sha256": "5f810518c72361703e1931810f470cf9139df0044abd5916dd253e2b8da632e2",
+      "url": "https://huggingface.co/datasets/IPEC-COMMUNITY/FastUMI_100k_lerobot/resolve/4cf7cca8fdc15d6f71ee0055553ce8a5e78aa9a0/README.md"
+    }
+  },
+  {
+    "dataset_id": "molmoact2",
+    "repository": "allenai/MolmoAct2-BimanualYAM-Dataset",
+    "revision": "e9f21ae15074330839f2ac25ed4b49d76dfa1f9c",
+    "file_path": "data/chunk-000/file-000.parquet",
+    "file_url": "https://huggingface.co/datasets/allenai/MolmoAct2-BimanualYAM-Dataset/resolve/e9f21ae15074330839f2ac25ed4b49d76dfa1f9c/data/chunk-000/file-000.parquet",
+    "checked_utc": "2026-11-06T13:37:30.545024+00:00",
+    "authentication": false,
+    "data": {
+      "status": 200,
+      "bytes": 94623,
+      "sha256": "1ea8401dfa2e6b5eb09addd120ab24b0f94f7b443af0889c1a60553acb2bfe02",
+      "url": "https://huggingface.co/datasets/allenai/MolmoAct2-BimanualYAM-Dataset/resolve/e9f21ae15074330839f2ac25ed4b49d76dfa1f9c/data/chunk-000/file-000.parquet"
+    },
+    "parquet_magic": true,
+    "info": {
+      "status": 200,
+      "bytes": 4488,
+      "sha256": "a9830172217886c4d608c2f0202b1922023a657982288ce9f6566be9a254fbe7",
+      "url": "https://huggingface.co/datasets/allenai/MolmoAct2-BimanualYAM-Dataset/resolve/e9f21ae15074330839f2ac25ed4b49d76dfa1f9c/meta/info.json"
+    },
+    "readme": {
+      "status": 200,
+      "bytes": 7904,
+      "sha256": "0b76347d570bbbe1c959b55801ea7bb49f9237a53352181cdd043799c53cb0c8",
+      "url": "https://huggingface.co/datasets/allenai/MolmoAct2-BimanualYAM-Dataset/resolve/e9f21ae15074330839f2ac25ed4b49d76dfa1f9c/README.md"
+    }
+  },
+  {
+    "dataset_id": "grootsim",
+    "repository": "nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim",
+    "revision": "ea7ac0b68f87da62f1e726771bba0fe74300802f",
+    "file_path": "bimanual_panda_gripper.Threading/data/chunk-000/episode_000000.parquet",
+    "file_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/bimanual_panda_gripper.Threading/data/chunk-000/episode_000000.parquet",
+    "checked_utc": "2026-11-06T13:37:30.739664+00:00",
+    "authentication": false,
+    "data": {
+      "status": 200,
+      "bytes": 88526,
+      "sha256": "53597fe74268fdc8252959fc3aa51cc31ba8ea0531afd492a26e05b225156bd2",
+      "url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/bimanual_panda_gripper.Threading/data/chunk-000/episode_000000.parquet"
+    },
+    "parquet_magic": true,
+    "info": {
+      "status": 200,
+      "bytes": 4705,
+      "sha256": "a7a33b4c8b369ecac39525fda072625872bf1b1ade146e2fc32599c9822660a1",
+      "url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/bimanual_panda_gripper.Threading/meta/info.json"
+    },
+    "readme": {
+      "status": 200,
+      "bytes": 6876,
+      "sha256": "cfcbb2c6b229f39a8e293fb43ed0ab33f1ad7cadba3bcc363fbb60a5c62bc862",
+      "url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/README.md"
+    },
+    "modality": {
+      "url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/bimanual_panda_gripper.Threading/meta/modality.json",
+      "status": 200,
+      "bytes": 2069,
+      "sha256": "f69b2501801f6e436e1ec4b3f2905967fa8a7dbe7be2f10c850027af2d5d1baf"
+    }
+  }
+]

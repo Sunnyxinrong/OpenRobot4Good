@@ -1,0 +1,342 @@
+{
+  "scope": "Seven constructed cases; no empirical error-rate estimate",
+  "legacy_cases_matching": 1,
+  "revised_cases_matching": 7,
+  "cases": [
+    {
+      "case": "different_revision",
+      "claim": "file_access",
+      "expected_missing": [
+        "retrieved_file"
+      ],
+      "legacy_missing": [],
+      "revised_missing": [
+        "retrieved_file"
+      ],
+      "legacy_matches_expectation": false,
+      "revised_matches_expectation": true,
+      "fixture_records": [
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "license",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/license",
+          "locator": "fixture only"
+        },
+        {
+          "dataset_id": "fixture",
+          "revision": "r2",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "actual_file",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/actual_file",
+          "locator": "fixture only"
+        }
+      ]
+    },
+    {
+      "case": "different_subset",
+      "claim": "file_access",
+      "expected_missing": [
+        "data_license"
+      ],
+      "legacy_missing": [],
+      "revised_missing": [
+        "data_license"
+      ],
+      "legacy_matches_expectation": false,
+      "revised_matches_expectation": true,
+      "fixture_records": [
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "B",
+          "context_id": "run1",
+          "indicator": "license",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/license",
+          "locator": "fixture only"
+        },
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "actual_file",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/actual_file",
+          "locator": "fixture only"
+        }
+      ]
+    },
+    {
+      "case": "different_context",
+      "claim": "cross_robot_transfer",
+      "expected_missing": [
+        "target_evaluation"
+      ],
+      "legacy_missing": [],
+      "revised_missing": [
+        "target_evaluation"
+      ],
+      "legacy_matches_expectation": false,
+      "revised_matches_expectation": true,
+      "fixture_records": [
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "semantic_mapping",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/semantic_mapping",
+          "locator": "fixture only"
+        },
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "implemented_adapter",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/implemented_adapter",
+          "locator": "fixture only"
+        },
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run2",
+          "indicator": "target_evaluation",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/target_evaluation",
+          "locator": "fixture only"
+        }
+      ]
+    },
+    {
+      "case": "complete_worker_welfare",
+      "claim": "worker_welfare",
+      "expected_missing": [],
+      "legacy_missing": [
+        "comparison",
+        "exposure_link",
+        "stakeholder",
+        "worker_outcome"
+      ],
+      "revised_missing": [],
+      "legacy_matches_expectation": false,
+      "revised_matches_expectation": true,
+      "fixture_records": [
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "comparison",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/comparison",
+          "locator": "fixture only"
+        },
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "exposure_link",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/exposure_link",
+          "locator": "fixture only"
+        },
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "stakeholder",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/stakeholder",
+          "locator": "fixture only"
+        },
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "worker_outcome",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/worker_outcome",
+          "locator": "fixture only"
+        }
+      ]
+    },
+    {
+      "case": "complete_energy_per_success",
+      "claim": "energy_per_success",
+      "expected_missing": [],
+      "legacy_missing": [
+        "attempt_accounting",
+        "meter_boundary",
+        "power_interval",
+        "success_rule",
+        "successful_outputs"
+      ],
+      "revised_missing": [],
+      "legacy_matches_expectation": false,
+      "revised_matches_expectation": true,
+      "fixture_records": [
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "attempt_accounting",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/attempt_accounting",
+          "locator": "fixture only"
+        },
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "meter_boundary",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/meter_boundary",
+          "locator": "fixture only"
+        },
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "power_interval",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/power_interval",
+          "locator": "fixture only"
+        },
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "success_rule",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/success_rule",
+          "locator": "fixture only"
+        },
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "successful_outputs",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/successful_outputs",
+          "locator": "fixture only"
+        }
+      ]
+    },
+    {
+      "case": "complete_operational_carbon",
+      "claim": "operational_carbon",
+      "expected_missing": [],
+      "legacy_missing": [
+        "electricity_factor",
+        "measured_energy",
+        "time_location"
+      ],
+      "revised_missing": [],
+      "legacy_matches_expectation": false,
+      "revised_matches_expectation": true,
+      "fixture_records": [
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "electricity_factor",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/electricity_factor",
+          "locator": "fixture only"
+        },
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "measured_energy",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/measured_energy",
+          "locator": "fixture only"
+        },
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "time_location",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/time_location",
+          "locator": "fixture only"
+        }
+      ]
+    },
+    {
+      "case": "same_scope_access",
+      "claim": "file_access",
+      "expected_missing": [],
+      "legacy_missing": [],
+      "revised_missing": [],
+      "legacy_matches_expectation": true,
+      "revised_matches_expectation": true,
+      "fixture_records": [
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "license",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/license",
+          "locator": "fixture only"
+        },
+        {
+          "dataset_id": "fixture",
+          "revision": "r1",
+          "subset": "A",
+          "context_id": "run1",
+          "indicator": "actual_file",
+          "state": "documented",
+          "value": "recorded",
+          "source_url": "https://example.org/actual_file",
+          "locator": "fixture only"
+        }
+      ]
+    }
+  ]
+}

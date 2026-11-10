@@ -1,0 +1,511 @@
+[
+  {
+    "dataset_id": "fastumi",
+    "rows": 412,
+    "row_groups": 1,
+    "created_by": "parquet-cpp-arrow version 23.0.0",
+    "schema": [
+      {
+        "name": "schema",
+        "physical_type": null,
+        "children": 7,
+        "repetition": 0
+      },
+      {
+        "name": "action",
+        "physical_type": null,
+        "children": 1,
+        "repetition": 1
+      },
+      {
+        "name": "list",
+        "physical_type": null,
+        "children": 1,
+        "repetition": 2
+      },
+      {
+        "name": "element",
+        "physical_type": 4,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "observation.state",
+        "physical_type": null,
+        "children": 1,
+        "repetition": 1
+      },
+      {
+        "name": "list",
+        "physical_type": null,
+        "children": 1,
+        "repetition": 2
+      },
+      {
+        "name": "element",
+        "physical_type": 4,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "timestamp",
+        "physical_type": 4,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "frame_index",
+        "physical_type": 2,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "episode_index",
+        "physical_type": 2,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "index",
+        "physical_type": 2,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "task_index",
+        "physical_type": 2,
+        "children": null,
+        "repetition": 1
+      }
+    ],
+    "column_paths": [
+      [
+        "action",
+        "list",
+        "element"
+      ],
+      [
+        "observation.state",
+        "list",
+        "element"
+      ],
+      [
+        "timestamp"
+      ],
+      [
+        "frame_index"
+      ],
+      [
+        "episode_index"
+      ],
+      [
+        "index"
+      ],
+      [
+        "task_index"
+      ]
+    ],
+    "scope": "Parquet footer/schema only; data pages and videos not decoded",
+    "declared": {
+      "codebase_version": "v2.1",
+      "robot_type": null,
+      "fps": 20,
+      "total_episodes": 3748,
+      "action": {
+        "dtype": "float32",
+        "shape": [
+          14
+        ],
+        "names": {
+          "motors": [
+            "left_x",
+            "left_y",
+            "left_z",
+            "left_roll",
+            "left_pitch",
+            "left_yaw",
+            "left_gripper",
+            "right_x",
+            "right_y",
+            "right_z",
+            "right_roll",
+            "right_pitch",
+            "right_yaw",
+            "right_gripper"
+          ]
+        }
+      }
+    },
+    "info_features": [
+      "observation.images.left_camera_rgb_image",
+      "observation.images.right_camera_rgb_image",
+      "action",
+      "observation.state",
+      "timestamp",
+      "frame_index",
+      "episode_index",
+      "index",
+      "task_index"
+    ]
+  },
+  {
+    "dataset_id": "molmoact2",
+    "rows": 1732,
+    "row_groups": 1,
+    "created_by": "parquet-cpp-arrow version 23.0.1",
+    "schema": [
+      {
+        "name": "schema",
+        "physical_type": null,
+        "children": 7,
+        "repetition": 0
+      },
+      {
+        "name": "action",
+        "physical_type": null,
+        "children": 1,
+        "repetition": 1
+      },
+      {
+        "name": "list",
+        "physical_type": null,
+        "children": 1,
+        "repetition": 2
+      },
+      {
+        "name": "element",
+        "physical_type": 4,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "observation.state",
+        "physical_type": null,
+        "children": 1,
+        "repetition": 1
+      },
+      {
+        "name": "list",
+        "physical_type": null,
+        "children": 1,
+        "repetition": 2
+      },
+      {
+        "name": "element",
+        "physical_type": 4,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "timestamp",
+        "physical_type": 4,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "frame_index",
+        "physical_type": 2,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "episode_index",
+        "physical_type": 2,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "index",
+        "physical_type": 2,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "task_index",
+        "physical_type": 2,
+        "children": null,
+        "repetition": 1
+      }
+    ],
+    "column_paths": [
+      [
+        "action",
+        "list",
+        "element"
+      ],
+      [
+        "observation.state",
+        "list",
+        "element"
+      ],
+      [
+        "timestamp"
+      ],
+      [
+        "frame_index"
+      ],
+      [
+        "episode_index"
+      ],
+      [
+        "index"
+      ],
+      [
+        "task_index"
+      ]
+    ],
+    "scope": "Parquet footer/schema only; data pages and videos not decoded",
+    "declared": {
+      "codebase_version": "v3.0",
+      "robot_type": "bi_yam_follower",
+      "fps": 30,
+      "total_episodes": 32246,
+      "action": {
+        "dtype": "float32",
+        "names": [
+          "left_joint_0.pos",
+          "left_joint_1.pos",
+          "left_joint_2.pos",
+          "left_joint_3.pos",
+          "left_joint_4.pos",
+          "left_joint_5.pos",
+          "left_gripper.pos",
+          "right_joint_0.pos",
+          "right_joint_1.pos",
+          "right_joint_2.pos",
+          "right_joint_3.pos",
+          "right_joint_4.pos",
+          "right_joint_5.pos",
+          "right_gripper.pos"
+        ],
+        "shape": [
+          14
+        ]
+      }
+    },
+    "info_features": [
+      "action",
+      "observation.state",
+      "observation.images.right",
+      "observation.images.left",
+      "observation.images.top",
+      "timestamp",
+      "frame_index",
+      "episode_index",
+      "index",
+      "task_index"
+    ]
+  },
+  {
+    "dataset_id": "grootsim",
+    "rows": 183,
+    "row_groups": 1,
+    "created_by": "parquet-cpp-arrow version 14.0.1",
+    "schema": [
+      {
+        "name": "schema",
+        "physical_type": null,
+        "children": 10,
+        "repetition": 0
+      },
+      {
+        "name": "observation.state",
+        "physical_type": null,
+        "children": 1,
+        "repetition": 1
+      },
+      {
+        "name": "list",
+        "physical_type": null,
+        "children": 1,
+        "repetition": 2
+      },
+      {
+        "name": "element",
+        "physical_type": 5,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "action",
+        "physical_type": null,
+        "children": 1,
+        "repetition": 1
+      },
+      {
+        "name": "list",
+        "physical_type": null,
+        "children": 1,
+        "repetition": 2
+      },
+      {
+        "name": "element",
+        "physical_type": 5,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "timestamp",
+        "physical_type": 5,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "annotation.human.action.task_description",
+        "physical_type": 2,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "task_index",
+        "physical_type": 2,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "annotation.human.validity",
+        "physical_type": 2,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "episode_index",
+        "physical_type": 2,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "index",
+        "physical_type": 2,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "next.reward",
+        "physical_type": 5,
+        "children": null,
+        "repetition": 1
+      },
+      {
+        "name": "next.done",
+        "physical_type": 0,
+        "children": null,
+        "repetition": 1
+      }
+    ],
+    "column_paths": [
+      [
+        "observation.state",
+        "list",
+        "element"
+      ],
+      [
+        "action",
+        "list",
+        "element"
+      ],
+      [
+        "timestamp"
+      ],
+      [
+        "annotation.human.action.task_description"
+      ],
+      [
+        "task_index"
+      ],
+      [
+        "annotation.human.validity"
+      ],
+      [
+        "episode_index"
+      ],
+      [
+        "index"
+      ],
+      [
+        "next.reward"
+      ],
+      [
+        "next.done"
+      ]
+    ],
+    "scope": "Parquet footer/schema only; data pages and videos not decoded",
+    "declared": {
+      "codebase_version": "v2.0",
+      "robot_type": "Panda",
+      "fps": 20.0,
+      "total_episodes": 1000,
+      "action": {
+        "dtype": "float64",
+        "shape": [
+          14
+        ],
+        "names": [
+          "motor_0",
+          "motor_1",
+          "motor_2",
+          "motor_3",
+          "motor_4",
+          "motor_5",
+          "motor_6",
+          "motor_7",
+          "motor_8",
+          "motor_9",
+          "motor_10",
+          "motor_11",
+          "motor_12",
+          "motor_13"
+        ]
+      }
+    },
+    "info_features": [
+      "observation.state",
+      "action",
+      "timestamp",
+      "annotation.human.action.task_description",
+      "task_index",
+      "annotation.human.validity",
+      "episode_index",
+      "index",
+      "next.reward",
+      "next.done",
+      "observation.images.right_wrist_view",
+      "observation.images.left_wrist_view",
+      "observation.images.front_view"
+    ],
+    "publisher_action_map": {
+      "left_arm_eef_pos": {
+        "start": 0,
+        "end": 3,
+        "absolute": false
+      },
+      "left_arm_eef_rot": {
+        "start": 3,
+        "end": 6,
+        "absolute": false,
+        "rotation_type": "axis_angle"
+      },
+      "left_gripper_close": {
+        "start": 6,
+        "end": 7,
+        "dtype": "int64"
+      },
+      "right_arm_eef_pos": {
+        "start": 7,
+        "end": 10,
+        "absolute": false
+      },
+      "right_arm_eef_rot": {
+        "start": 10,
+        "end": 13,
+        "absolute": false,
+        "rotation_type": "axis_angle"
+      },
+      "right_gripper_close": {
+        "start": 13,
+        "end": 14,
+        "dtype": "int64"
+      }
+    }
+  }
+]

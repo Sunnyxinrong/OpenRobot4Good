@@ -93,7 +93,7 @@ def load_catalog():
             "configuration_checked_date":"2026-11-07",
         }
         for key in ("body","locomotion","humanoid_size","effector","effector_role","acquisition","terminal","access"):
-            row[key+"_zh"] = vocabulary[key][row[key]]
+            row[key+"_label"] = vocabulary[key][row[key]]
         rows.append(row)
     if {row["release_id"] for row in rows} != set(releases):
         raise ValueError("Every indexed release must have a scoped configuration")

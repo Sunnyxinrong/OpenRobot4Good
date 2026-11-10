@@ -1,0 +1,29 @@
+﻿indicator,dimension,unit_of_analysis,definition,units,needed_evidence,current_scope
+persistent_id,FAIR,Release,Publisher DOI or persistent source plus version/revision; a homepage alone is partial,identifier,publisher,documented/partial/not_located
+access_conditions,FAIR,Release,No-charge actual file retrieval without case-by-case approval; log authentication separately,categorical,file_probe,documented/not_verified
+license_scope,Governance,Release,Exact terms explicitly covering data; separate code/paper/assets,categorical,publisher,documented/conflicting/not_located
+schema_completeness,FAIR,Release-subset,"Embodiment; ordering; representation; units; frame; time; gripper; normalization; calibration; splits, each coded separately",profile,card+metadata+code,no aggregate responsibility score
+provenance,FAIR,Release,Source -> conversion -> collection lineage and revision hashes,graph,publisher+hash,unresolved edges retained
+hardware_access,Access equity,Target evaluation,Required hardware and minimum cost under fixed date/location assumptions,currency+specification,benchmark_design,not_measured
+task_coverage,Coverage,Release,Explicit task taxonomy and sampling denominator; not worker fairness,counts,metadata,not_estimated_from_first_file
+group_performance_gap,Fairness,Target evaluation,Prespecified relevant groups and outcomes; no demographic inference from video,difference,evaluation,not_measured
+low_budget_success,Access equity,Target evaluation,Task success under equal fixed compute/hardware budget with uncertainty,proportion,evaluation,not_measured
+consent_disclosure,CARE-informed,Contributor context,Locate consent/disclosure records without treating a license as consent,profile,governance_record,not_assessed
+worker_terms,CARE-informed,Contributor context,Role; compensation; hours; training; safety; worker voice,profile,worker_record,not_assessed
+control_redress,CARE-informed,Rightsholder context,Who has authority; withdrawal limits; contestation contact; direct CARE applicability must be assessed separately,profile,governance_record,not_assessed
+failure_disclosure,Reliability,Release+evaluation,Sampling of failures/retries; definitions and exclusion rules,profile,collection_protocol,not_assessed
+open_license_family,Business,Release,Exact permissive license family; commercial permission is constant in strict-open cohort,categorical,license,do_not_regress_constant_gate
+time_to_first_batch,Business,Engineer x task,Active minutes to semantically validated batch; wall-clock and censored failures separate,minutes,controlled_experiment,proposed_not_measured
+adaptation_labor,Business,Engineer x task,Logged active effort by loading/mapping/debugging; fixed budget and experience,minutes,controlled_experiment,proposed_not_measured
+training_cost,Business,Training run,Actual compute charges and active labor under declared allocation,currency,invoices+logs,not_measured
+reuse_proxy,Visibility,Release-date,Dated downloads/citations; not ROI or revenue,count,platform,not_collected
+provider_type,Control,Publisher,"University/company/nonprofit/mixed; descriptive, confounded with scale and infrastructure",categorical,publisher,not_causal
+data_scale,Control,Release-subset,Episodes/frames/hours with source-specific denominator and overlap flags,counts,metadata,not_pooled_across_versions
+modality_domain,Control,Release-subset,Real/simulation/ex-vivo/representation-learning and modalities,categorical,publisher,documented_scope
+release_age,Control,Release,Audit date minus actual release date; do not substitute page update date without qualification,days,release_record,not_measured
+measured_energy,Environment,Meter boundary x interval,Integrate measured power with units; include declared failed/idle periods,kWh,meter+time,not_measured
+operational_carbon,Environment,Boundary x region x time,Energy times matched electricity emissions factor; exclude unmeasured embodied carbon,kgCO2e,meter+factor,not_estimable
+storage_transfer,Environment,Storage/transfer process,Bytes and duration; require infrastructure-specific energy model before carbon inference,bytes+time,logs,probe_bytes_only
+carbon_per_success,Environment,Deployment batch,Boundary emissions divided by successful outputs including failed-attempt numerator; undefined with zero successes,kgCO2e/success,meter+outcome,not_estimable
+impact_disclosure,Environment,Release,Presence/scope of measurement disclosure; no disclosure is not zero emissions,profile,card+record,bounded_not_located
+external_damage,Public cost,Scenario,Emissions times explicit SCC assumption; valuation year/currency and sensitivity; not measured welfare,currency,scenario_assumptions,not_calculated

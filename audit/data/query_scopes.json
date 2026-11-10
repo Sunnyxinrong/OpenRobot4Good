@@ -1,0 +1,20 @@
+{
+  "fastumi": {
+    "dataset_id": "fastumi",
+    "revision": "4cf7cca8fdc15d6f71ee0055553ce8a5e78aa9a0",
+    "subset": "dual_arm/Add_Rice_to_Rice_Cooker",
+    "context_id": "release_documentation"
+  },
+  "molmoact2": {
+    "dataset_id": "molmoact2",
+    "revision": "e9f21ae15074330839f2ac25ed4b49d76dfa1f9c",
+    "subset": ".",
+    "context_id": "release_documentation"
+  },
+  "grootsim": {
+    "dataset_id": "grootsim",
+    "revision": "ea7ac0b68f87da62f1e726771bba0fe74300802f",
+    "subset": "bimanual_panda_gripper.Threading",
+    "context_id": "release_documentation"
+  }
+}

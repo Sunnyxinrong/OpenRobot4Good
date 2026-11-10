@@ -1,0 +1,23 @@
+{
+  "candidate_resources": 11,
+  "unique_included_underlying_resources": 3,
+  "pending_file_or_scope_verification": 8,
+  "actual_data_files_retrieved": 3,
+  "probe_rows": {
+    "fastumi": 412,
+    "molmoact2": 1732,
+    "grootsim": 183
+  },
+  "declared_action_dimensions": {
+    "fastumi": 14,
+    "molmoact2": 14,
+    "grootsim": 14
+  },
+  "declared_fps": {
+    "fastumi": 20,
+    "molmoact2": 30,
+    "grootsim": 20.0
+  },
+  "verified_probe_bytes": 252829,
+  "claim_scope": "descriptive access/schema pilot; no population prevalence, training, economic, welfare, or carbon estimate"
+}

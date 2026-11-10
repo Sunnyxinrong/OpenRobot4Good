@@ -1,0 +1,41 @@
+{
+  "dataset_id": "grootsim",
+  "revision": "ea7ac0b68f87da62f1e726771bba0fe74300802f",
+  "subset": "bimanual_panda_gripper.Threading",
+  "source_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/bimanual_panda_gripper.Threading/meta/modality.json",
+  "sha256": "f69b2501801f6e436e1ec4b3f2905967fa8a7dbe7be2f10c850027af2d5d1baf",
+  "check": "publisher transcription and exact index coverage only",
+  "channels_covered": 14,
+  "components": 6,
+  "reference_check_passed": true,
+  "mutations": [
+    {
+      "case": "swapped_arm_slices",
+      "array_changed": false,
+      "width_null_finite_checks_would_change": false,
+      "reference_check_rejects": true
+    },
+    {
+      "case": "relative_as_absolute",
+      "array_changed": false,
+      "width_null_finite_checks_would_change": false,
+      "reference_check_rejects": true
+    },
+    {
+      "case": "axis_angle_as_euler",
+      "array_changed": false,
+      "width_null_finite_checks_would_change": false,
+      "reference_check_rejects": true
+    }
+  ],
+  "unresolved": [
+    "translation units",
+    "reference frame",
+    "rotation composition and scaling",
+    "controller gains",
+    "gripper polarity on a target",
+    "action-observation timing"
+  ],
+  "independent_human_or_controller_validation": false,
+  "target_transfer_validated": false
+}

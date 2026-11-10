@@ -1,0 +1,1 @@
+engineer_id,task_id,dataset_id,revision,subset,condition,assigned_order,prior_familiarity,started_at,active_minutes,wall_clock_minutes,budget_minutes,semantic_check_passed,incorrect_assumptions,unresolved_questions,attempt_status,timeout_or_abandonment_reason,validator_id,code_revision
