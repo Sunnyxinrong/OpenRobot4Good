@@ -23,7 +23,11 @@ Parquet downloads. An HTTPS mirror can be supplied with --source-base;
 SHA-256 checks apply to every download. Videos and image data are outside
 this corpus.
 
-If you have a Hub snapshot directory that contains data/core.parquet,
+Download the [fixed Hugging Face snapshot](https://huggingface.co/datasets/XinrongSunny/robot-action-mini/tree/d0cb3f9cca5fe453dc210d2e1872520cd2d86bcd) or fetch it with the Hugging Face CLI:
+
+    hf download XinrongSunny/robot-action-mini --repo-type dataset --revision d0cb3f9cca5fe453dc210d2e1872520cd2d86bcd --local-dir snapshot
+
+Then point the replay command to the directory that contains data/core.parquet,
 data/extension.parquet and metadata/source_files.csv, you can replay offline:
 
     python run.py --snapshot-dir PATH_TO_SNAPSHOT --out replay
