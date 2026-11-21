@@ -1,0 +1,268 @@
+{
+  "fastumi.dual": {
+    "release_id": "fastumi",
+    "label": "FastUMI",
+    "publisher": "IPEC-COMMUNITY",
+    "repository": "IPEC-COMMUNITY/FastUMI_100k_lerobot",
+    "revision": "4cf7cca8fdc15d6f71ee0055553ce8a5e78aa9a0",
+    "subset": "dual_arm/Add_Rice_to_Rice_Cooker",
+    "license": "Apache-2.0",
+    "license_url": "https://huggingface.co/datasets/IPEC-COMMUNITY/FastUMI_100k_lerobot/resolve/4cf7cca8fdc15d6f71ee0055553ce8a5e78aa9a0/README.md",
+    "mode": "physical",
+    "named_task": "Add rice to rice cooker",
+    "representation": "Cartesian position and Euler orientation of both end effectors, plus grippers",
+    "info": "inputs/metadata/fastumi.dual.info.json",
+    "info_sha256": "b7e343b8a40a94fd28edf2534e8108b50c5a636625941c094f901a19f8525c44",
+    "info_url": "https://huggingface.co/datasets/IPEC-COMMUNITY/FastUMI_100k_lerobot/resolve/4cf7cca8fdc15d6f71ee0055553ce8a5e78aa9a0/dual_arm/Add_Rice_to_Rice_Cooker/meta/info.json",
+    "modality": null,
+    "modality_sha256": null,
+    "modality_url": null,
+    "evidence_scope": "Pinned release card, selected subset schema and action map where available, and metadata of the selected files.",
+    "evidence": {
+      "welfare": {
+        "worker_group": false,
+        "measured_exposure": false,
+        "measured_worker_outcome": false,
+        "comparison": false
+      },
+      "energy": {
+        "meter_boundary": false,
+        "metered_electricity": false,
+        "accepted_output_rule": false,
+        "all_attempts_including_failures": false,
+        "accepted_output_count": false
+      },
+      "carbon_extra": {
+        "time_region_emission_factor": false
+      }
+    }
+  },
+  "molmoact2.yam": {
+    "release_id": "molmoact2",
+    "label": "MolmoAct2",
+    "publisher": "Allen Institute for AI",
+    "repository": "allenai/MolmoAct2-BimanualYAM-Dataset",
+    "revision": "e9f21ae15074330839f2ac25ed4b49d76dfa1f9c",
+    "subset": "repository root",
+    "license": "Apache-2.0",
+    "license_url": "https://huggingface.co/datasets/allenai/MolmoAct2-BimanualYAM-Dataset/resolve/e9f21ae15074330839f2ac25ed4b49d76dfa1f9c/README.md",
+    "mode": "physical",
+    "named_task": null,
+    "representation": "Bimanual joint-position commands plus grippers",
+    "info": "inputs/metadata/molmoact2.yam.info.json",
+    "info_sha256": "a9830172217886c4d608c2f0202b1922023a657982288ce9f6566be9a254fbe7",
+    "info_url": "https://huggingface.co/datasets/allenai/MolmoAct2-BimanualYAM-Dataset/resolve/e9f21ae15074330839f2ac25ed4b49d76dfa1f9c/meta/info.json",
+    "modality": null,
+    "modality_sha256": null,
+    "modality_url": null,
+    "evidence_scope": "Pinned release card, selected subset schema and action map where available, and metadata of the selected files.",
+    "evidence": {
+      "welfare": {
+        "worker_group": false,
+        "measured_exposure": false,
+        "measured_worker_outcome": false,
+        "comparison": false
+      },
+      "energy": {
+        "meter_boundary": false,
+        "metered_electricity": false,
+        "accepted_output_rule": false,
+        "all_attempts_including_failures": false,
+        "accepted_output_count": false
+      },
+      "carbon_extra": {
+        "time_region_emission_factor": false
+      }
+    }
+  },
+  "grootsim.threading": {
+    "release_id": "grootsim",
+    "label": "Panda Threading",
+    "publisher": "NVIDIA",
+    "repository": "nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim",
+    "revision": "ea7ac0b68f87da62f1e726771bba0fe74300802f",
+    "subset": "bimanual_panda_gripper.Threading",
+    "license": "CC-BY-4.0",
+    "license_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/README.md",
+    "mode": "simulation",
+    "named_task": "Threading",
+    "representation": "Bimanual relative position and axis-angle rotation, plus gripper close flags",
+    "info": "inputs/metadata/grootsim.threading.info.json",
+    "info_sha256": "a7a33b4c8b369ecac39525fda072625872bf1b1ade146e2fc32599c9822660a1",
+    "info_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/bimanual_panda_gripper.Threading/meta/info.json",
+    "modality": "inputs/metadata/grootsim.threading.modality.json",
+    "modality_sha256": "f69b2501801f6e436e1ec4b3f2905967fa8a7dbe7be2f10c850027af2d5d1baf",
+    "modality_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/bimanual_panda_gripper.Threading/meta/modality.json",
+    "evidence_scope": "Pinned release card, selected subset schema and action map where available, and metadata of the selected files.",
+    "evidence": {
+      "welfare": {
+        "worker_group": false,
+        "measured_exposure": false,
+        "measured_worker_outcome": false,
+        "comparison": false
+      },
+      "energy": {
+        "meter_boundary": false,
+        "metered_electricity": false,
+        "accepted_output_rule": false,
+        "all_attempts_including_failures": false,
+        "accepted_output_count": false
+      },
+      "carbon_extra": {
+        "time_region_emission_factor": false
+      }
+    }
+  },
+  "grootsim.panda-hand": {
+    "release_id": "grootsim",
+    "label": "Panda LiftTray",
+    "publisher": "NVIDIA",
+    "repository": "nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim",
+    "revision": "ea7ac0b68f87da62f1e726771bba0fe74300802f",
+    "subset": "bimanual_panda_hand.LiftTray",
+    "license": "CC-BY-4.0",
+    "license_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/README.md",
+    "mode": "simulation",
+    "named_task": "Lift tray",
+    "representation": "Bimanual relative position, axis-angle rotation, and hand commands",
+    "info": "inputs/metadata/grootsim.panda-hand.info.json",
+    "info_sha256": "675f101bab0ca97c98e7f2aa8c0faed554fb22df7f56ede166e9572a6bef906d",
+    "info_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/bimanual_panda_hand.LiftTray/meta/info.json",
+    "modality": "inputs/metadata/grootsim.panda-hand.modality.json",
+    "modality_sha256": "eb932062f0cc68735e5000778101348f4b80c46c8a8b79c632e4e855ece62296",
+    "modality_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/bimanual_panda_hand.LiftTray/meta/modality.json",
+    "evidence_scope": "Pinned release card, selected subset schema and action map where available, and metadata of the selected files.",
+    "evidence": {
+      "welfare": {
+        "worker_group": false,
+        "measured_exposure": false,
+        "measured_worker_outcome": false,
+        "comparison": false
+      },
+      "energy": {
+        "meter_boundary": false,
+        "metered_electricity": false,
+        "accepted_output_rule": false,
+        "all_attempts_including_failures": false,
+        "accepted_output_count": false
+      },
+      "carbon_extra": {
+        "time_region_emission_factor": false
+      }
+    }
+  },
+  "grootsim.gr1": {
+    "release_id": "grootsim",
+    "label": "GR-1 CanSort",
+    "publisher": "NVIDIA",
+    "repository": "nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim",
+    "revision": "ea7ac0b68f87da62f1e726771bba0fe74300802f",
+    "subset": "gr1_arms_only.CanSort",
+    "license": "CC-BY-4.0",
+    "license_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/README.md",
+    "mode": "simulation",
+    "named_task": "Sort cans",
+    "representation": "Grouped arm, hand, leg, neck, and waist values",
+    "info": "inputs/metadata/grootsim.gr1.info.json",
+    "info_sha256": "6b871eef821252e7f260e6e1c9a2a40269117b587c654b62cb3fc00dc49a1bab",
+    "info_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/gr1_arms_only.CanSort/meta/info.json",
+    "modality": "inputs/metadata/grootsim.gr1.modality.json",
+    "modality_sha256": "cba14c16a2950628b81370488f19d8d7d9b967a2902f8f220b8faab8c9a8c734",
+    "modality_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/gr1_arms_only.CanSort/meta/modality.json",
+    "evidence_scope": "Pinned release card, selected subset schema and action map where available, and metadata of the selected files.",
+    "evidence": {
+      "welfare": {
+        "worker_group": false,
+        "measured_exposure": false,
+        "measured_worker_outcome": false,
+        "comparison": false
+      },
+      "energy": {
+        "meter_boundary": false,
+        "metered_electricity": false,
+        "accepted_output_rule": false,
+        "all_attempts_including_failures": false,
+        "accepted_output_count": false
+      },
+      "carbon_extra": {
+        "time_region_emission_factor": false
+      }
+    }
+  },
+  "grootsim.g1": {
+    "release_id": "grootsim",
+    "label": "G1 AppleToPlate",
+    "publisher": "NVIDIA",
+    "repository": "nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim",
+    "revision": "ea7ac0b68f87da62f1e726771bba0fe74300802f",
+    "subset": "unitree_g1.LMPnPAppleToPlateDC",
+    "license": "CC-BY-4.0",
+    "license_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/README.md",
+    "mode": "simulation",
+    "named_task": "Place apple on plate",
+    "representation": "Whole-body joint targets",
+    "info": "inputs/metadata/grootsim.g1.info.json",
+    "info_sha256": "85a5a8bff3957a1638e855d1c878ec82e982c59ea085f924e0f4a94fcf4c9431",
+    "info_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/unitree_g1.LMPnPAppleToPlateDC/meta/info.json",
+    "modality": "inputs/metadata/grootsim.g1.modality.json",
+    "modality_sha256": "df4f230c6be5eceeb5d244bc94fdbf1aa08ea6ab56f9e2e2bd2467088e4d89fe",
+    "modality_url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim/resolve/ea7ac0b68f87da62f1e726771bba0fe74300802f/unitree_g1.LMPnPAppleToPlateDC/meta/modality.json",
+    "evidence_scope": "Pinned release card, selected subset schema and action map where available, and metadata of the selected files.",
+    "evidence": {
+      "welfare": {
+        "worker_group": false,
+        "measured_exposure": false,
+        "measured_worker_outcome": false,
+        "comparison": false
+      },
+      "energy": {
+        "meter_boundary": false,
+        "metered_electricity": false,
+        "accepted_output_rule": false,
+        "all_attempts_including_failures": false,
+        "accepted_output_count": false
+      },
+      "carbon_extra": {
+        "time_region_emission_factor": false
+      }
+    }
+  },
+  "lekiwi.cubes": {
+    "release_id": "lekiwi",
+    "label": "LeKiwi",
+    "publisher": "oumeanin",
+    "repository": "oumeanin/lekiwi-study-sort-cubes",
+    "revision": "3846537301e907917478d4afb1c54fd28eac4fed",
+    "subset": "repository root",
+    "license": "Apache-2.0",
+    "license_url": "https://huggingface.co/datasets/oumeanin/lekiwi-study-sort-cubes/resolve/3846537301e907917478d4afb1c54fd28eac4fed/README.md",
+    "mode": "physical",
+    "named_task": "Sort cubes",
+    "representation": "Arm and gripper positions plus planar base velocity commands",
+    "info": "inputs/metadata/lekiwi.cubes.info.json",
+    "info_sha256": "2dfb4ce95c09c15ddec5fcfbf0fc3ac3bbf33e113910b3673bd786f3b6387622",
+    "info_url": "https://huggingface.co/datasets/oumeanin/lekiwi-study-sort-cubes/resolve/3846537301e907917478d4afb1c54fd28eac4fed/meta/info.json",
+    "modality": null,
+    "modality_sha256": null,
+    "modality_url": null,
+    "evidence_scope": "Pinned release card, selected subset schema and action map where available, and metadata of the selected files.",
+    "evidence": {
+      "welfare": {
+        "worker_group": false,
+        "measured_exposure": false,
+        "measured_worker_outcome": false,
+        "comparison": false
+      },
+      "energy": {
+        "meter_boundary": false,
+        "metered_electricity": false,
+        "accepted_output_rule": false,
+        "all_attempts_including_failures": false,
+        "accepted_output_count": false
+      },
+      "carbon_extra": {
+        "time_region_emission_factor": false
+      }
+    }
+  }
+}

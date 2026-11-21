@@ -1,0 +1,232 @@
+{
+    "state": {
+        "left_leg": {
+            "original_key": "observation.state",
+            "start": 0,
+            "end": 6,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "right_leg": {
+            "original_key": "observation.state",
+            "start": 6,
+            "end": 12,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "waist": {
+            "original_key": "observation.state",
+            "start": 12,
+            "end": 15,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "left_arm": {
+            "original_key": "observation.state",
+            "start": 15,
+            "end": 22,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "left_hand": {
+            "original_key": "observation.state",
+            "start": 22,
+            "end": 29,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "right_arm": {
+            "original_key": "observation.state",
+            "start": 29,
+            "end": 36,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "right_hand": {
+            "original_key": "observation.state",
+            "start": 36,
+            "end": 43,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "left_wrist_pos": {
+            "original_key": "observation.eef_state",
+            "start": 0,
+            "end": 3,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "left_wrist_abs_quat": {
+            "original_key": "observation.eef_state",
+            "start": 3,
+            "end": 7,
+            "rotation_type": "quaternion",
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "right_wrist_pos": {
+            "original_key": "observation.eef_state",
+            "start": 7,
+            "end": 10,
+            "rotation_type": null,  
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "right_wrist_abs_quat": {
+            "original_key": "observation.eef_state",
+            "start": 10,
+            "end": 14,
+            "rotation_type": "quaternion",
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        }
+    },
+    "action": {
+        "left_leg": {
+            "original_key": "action",
+            "start": 0,
+            "end": 6,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "right_leg": {
+            "original_key": "action",
+            "start": 6,
+            "end": 12,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "waist": {
+            "original_key": "action",
+            "start": 12,
+            "end": 15,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "left_arm": {
+            "original_key": "action",
+            "start": 15,
+            "end": 22,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "left_hand": {
+            "original_key": "action",
+            "start": 22,
+            "end": 29,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "right_arm": {
+            "original_key": "action",
+            "start": 29,
+            "end": 36,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "right_hand": {
+            "original_key": "action",
+            "start": 36,
+            "end": 43,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "left_wrist_pos": {
+            "original_key": "action.eef",
+            "start": 0,
+            "end": 3,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "left_wrist_abs_quat": {
+            "original_key": "action.eef",
+            "start": 3,
+            "end": 7,
+            "rotation_type": "quaternion",
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "right_wrist_pos": {
+            "original_key": "action.eef",
+            "start": 7,
+            "end": 10,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "right_wrist_abs_quat": {
+            "original_key": "action.eef",
+            "start": 10,
+            "end": 14,
+            "rotation_type": "quaternion",
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "base_height_command": {
+            "original_key": "teleop.base_height_command",
+            "start": 0,
+            "end": 1,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        },
+        "navigate_command": {
+            "original_key": "teleop.navigate_command",
+            "start": 0,
+            "end": 3,
+            "rotation_type": null,
+            "absolute": true,
+            "dtype": "float64",
+            "range": null
+        }
+    },
+    "video": {
+        "ego_view": {
+            "original_key": "observation.images.ego_view"
+        }
+    },
+    "annotation": {
+        "human.task_description": {
+            "original_key": "task_index"
+        }
+    }
+}

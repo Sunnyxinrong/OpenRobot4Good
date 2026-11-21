@@ -1,0 +1,85 @@
+{
+    "state": {
+        "left_arm_eef_pos": {
+            "start": 0,
+            "end": 3
+        },
+        "left_arm_eef_quat": {
+            "start": 3,
+            "end": 7,
+            "rotation_type": "quaternion"
+        },
+        "left_arm_joint_pos": {
+            "start": 7,
+            "end": 14
+        },
+        "left_hand": {
+            "start": 14,
+            "end": 20
+        },
+        "right_arm_eef_pos": {
+            "start": 20,
+            "end": 23
+        },
+        "right_arm_eef_quat": {
+            "start": 23,
+            "end": 27,
+            "rotation_type": "quaternion"
+        },
+        "right_arm_joint_pos": {
+            "start": 27,
+            "end": 34
+        },
+        "right_hand": {
+            "start": 34,
+            "end": 40
+        }
+    },
+    "action": {
+        "left_arm_eef_pos": {
+            "start": 0,
+            "end": 3,
+            "absolute": false
+        },
+        "left_arm_eef_rot": {
+            "start": 3,
+            "end": 6,
+            "absolute": false,
+            "rotation_type": "axis_angle"
+        },
+        "left_hand": {
+            "start": 6,
+            "end": 12
+        },
+        "right_arm_eef_pos": {
+            "start": 12,
+            "end": 15,
+            "absolute": false
+        },
+        "right_arm_eef_rot": {
+            "start": 15,
+            "end": 18,
+            "absolute": false,
+            "rotation_type": "axis_angle"
+        },
+        "right_hand": {
+            "start": 18,
+            "end": 24
+        }
+    },
+    "video": {
+        "right_wrist_view": {
+            "original_key": "observation.images.right_wrist_view"
+        },
+        "left_wrist_view": {
+            "original_key": "observation.images.left_wrist_view"
+        },
+        "ego_view": {
+            "original_key": "observation.images.ego_view"
+        }
+    },
+    "annotation": {
+        "human.action.task_description": {},
+        "human.validity": {}
+    }
+}
